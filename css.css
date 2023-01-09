@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 .hero{
-    background-image:url(../Personal_website/20230107_220044.jpg) ;
+    background-image:url(../Personal_website/20230107_214742.jpg) ;
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+    
 }
 nav{
     display: flex;
@@ -66,7 +67,9 @@ nav ul li a:hover{
     padding-top: 11%;
     padding-left: 20%;
     position: absolute;
+    margin-left: 600px;
 }
+
 h1{
     color: white;
     margin: 20px 0px 20px;
@@ -93,7 +96,7 @@ outline: none;
 {
     display: inline-block;
     outline: none;
-    border: none;
+    border: none; 
     padding: 10px 30px;
     background-color: red;
     margin-top: 30px;
@@ -101,9 +104,69 @@ outline: none;
 }
 .About{
     background-color: black;
-    transition: transform .1s;
+width: 100%;
+padding: 100px 0px;
+}
+.About-txt{
+width: 550px;
+color: azure;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom:20px ;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
 }
 .About:hover{
-    background-color: yellow;
+    background-color: ;
     transition: 2s;
+    transform: scale(1.1);
+    display: block;
+}
+.About img{
+    width: 200px;
+    height: auto;
+    margin: 8%;
+    border-radius: 25px;
+}
+.About img:hover{
+    width: 350px;
+    height: auto;
+    margin-bottom: 150px;
+    transition: 2s;
+}
+.About h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.About p{
+    color: rgb(99, 93, 93);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+.About p:hover{
+    color: white;
+}
+
+/*---------Skills-----------*/
+.Skills h1{
+    color: black;
+}
+.skill{
+    width: 500px;
+    margin: 60px;
+    color: rgb(46, 45, 45);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgb(59, 57, 57);
 }
