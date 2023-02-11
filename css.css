@@ -3,9 +3,21 @@
     margin: 0;
     font-family: 'josefin Sans', sans-serif;
     box-sizing: border-box;
+  /* Add styles for larger screens
+  @media only screen and (min-width: 600px) {
+    /* Add styles for larger screens */
+  /* } */
+
+  /* Add styles for smaller screens */
+  /* @media only screen and (max-width: 599px) { */
+    /* Add styles for smaller screens */
+  /* }  */
+
 }
 .hero{
     background-image:url(../Personal_website/20230107_214742.jpg) ;
+    background-color:black ;
+
     height: 100vh;
     width: 100%;
     background-size: cover;
